@@ -43,7 +43,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Origen"
+                    android:text="Punto de Inicio de Recorrido"
                     android:textSize="13sp"
                     android:textStyle="bold"/>
 
@@ -82,7 +82,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Destino"
+                    android:text="Punto de Fin de Recorrido"
                     android:textSize="13sp"
                     android:textStyle="bold"/>
 
@@ -121,7 +121,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tiempo y Distancia"
+                    android:text="Tiempo y Distancia de Recorrido"
                     android:textSize="13sp"
                     android:textStyle="bold"/>
 
@@ -160,7 +160,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Precio Aproximado del Viaje"
+                    android:text="Costo Aproximado de Combustible"
                     android:textSize="13sp"
                     android:textStyle="bold"/>
 
@@ -182,7 +182,7 @@
         android:id="@+id/btnConfirmRequest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CONFIRMAR SOLICITUD"
+        android:text="CONFIRMAR RECORRIDO"
         android:background="@drawable/rounded_button"
         android:layout_gravity="bottom"
         android:layout_marginTop="10dp"

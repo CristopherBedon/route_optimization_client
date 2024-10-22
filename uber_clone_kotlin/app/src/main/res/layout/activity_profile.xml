@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PERFIL DE USUARIO"
+            android:text="PERFIL DE SUPERVISOR"
             android:textAlignment="center"
             android:textColor="@color/grey_dark"
             android:textStyle="bold"
@@ -139,6 +139,29 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            style="@style/EditTextGrey"
+            app:hintTextColor="@color/grey_dark"
+            app:startIconDrawable="@drawable/ic_zona"
+            app:startIconTint="@color/grey_dark">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textFieldZona"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Zona"
+                android:textColorHint="@color/grey_dark"
+                android:inputType="text"
+                android:textSize="13sp"
+                android:textColor="@color/grey_dark" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
 
 
     </LinearLayout>
@@ -150,7 +173,7 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
-        android:text="ACTUALIZAR INFORMACION"
+        android:text="ACTUALIZAR INFORMACIÓN"
         android:layout_marginBottom="50dp"
         android:layout_gravity="bottom"
         android:background="@drawable/rounded_button"

@@ -61,6 +61,7 @@ class ClientProvider {
         map["name"] = client?.name!!
         map["lastname"] = client?.lastname!!
         map["phone"] = client?.phone!!
+        map["zone"] = client?.zone!!
         map["image"] = client?.image!!
         return db.document(client?.id!!).update(map)
     }

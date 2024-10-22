@@ -90,7 +90,7 @@
         android:id="@+id/btnRequestTrip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SOLICITAR VIAJE"
+        android:text="SOLICITAR RECOJO"
         android:background="@drawable/rounded_button"
         android:layout_gravity="bottom"
         android:layout_marginBottom="50dp"

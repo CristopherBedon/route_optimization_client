@@ -41,12 +41,14 @@ class ProfileActivity : AppCompatActivity() {
         val name = binding.textFieldName.text.toString()
         val lastname = binding.textFieldLastname.text.toString()
         val phone = binding.textFieldPhone.text.toString()
+        val zone = binding.textFieldZona.text.toString()
 
         val client = Client(
             id = authProvider.getId(),
             name = name,
             lastname = lastname,
             phone = phone,
+            zone = zone,
         )
 
         if (imageFile != null) {
@@ -76,8 +78,6 @@ class ProfileActivity : AppCompatActivity() {
                 }
             }
         }
-
-
     }
 
     private fun getClient() {
@@ -88,6 +88,7 @@ class ProfileActivity : AppCompatActivity() {
                 binding.textFieldName.setText(client?.name)
                 binding.textFieldLastname.setText(client?.lastname)
                 binding.textFieldPhone.setText(client?.phone)
+                binding.textFieldZona.setText(client?.zone)
 
                 if (client?.image != null) {
                     if (client.image != "") {
