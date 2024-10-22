@@ -70,6 +70,26 @@
 
             </LinearLayout>
 
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linearLayoutCritic"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:src="@drawable/ic_location_grey" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Puntos Críticos" />-->
+
+<!--            </LinearLayout>-->
+
             <LinearLayout
                 android:id="@+id/linearLayoutLogout"
                 android:layout_width="0dp"

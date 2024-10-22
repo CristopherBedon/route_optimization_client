@@ -308,7 +308,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
                 Place.Field.ADDRESS,
             )
         )
-        autocompleteOrigin?.setHint("Lugar de Recogida")
+        autocompleteOrigin?.setHint("Punto de Inicio de Recorrido")
         autocompleteOrigin?.setCountry("PE")
         autocompleteOrigin?.setOnPlaceSelectedListener(object :PlaceSelectionListener{
             override fun onPlaceSelected(place: Place) {
@@ -335,7 +335,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
                 Place.Field.ADDRESS,
             )
         )
-        autocompleteDestination?.setHint("Destino")
+        autocompleteDestination?.setHint("Punto de Fin de Recorrido")
         autocompleteDestination?.setCountry("PE")
         autocompleteDestination?.setOnPlaceSelectedListener(object :PlaceSelectionListener{
             override fun onPlaceSelected(place: Place) {

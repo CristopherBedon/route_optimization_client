@@ -25,6 +25,7 @@ class ModalBottomSheetMenu: BottomSheetDialogFragment() {
     var linearLayoutLogout: LinearLayout? = null
     var linearLayoutProfile: LinearLayout? = null
     var linearLayoutHistory: LinearLayout? = null
+//    var linearLayoutCritic: LinearLayout? = null
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -37,13 +38,21 @@ class ModalBottomSheetMenu: BottomSheetDialogFragment() {
         linearLayoutLogout = view.findViewById(R.id.linearLayoutLogout)
         linearLayoutProfile = view.findViewById(R.id.linearLayoutProfile)
         linearLayoutHistory = view.findViewById(R.id.linearLayoutHistory)
+//        linearLayoutCritic = view.findViewById(R.id.linearLayoutCritic)
 
         getClient()
 
         linearLayoutLogout?.setOnClickListener { goToMain() }
         linearLayoutProfile?.setOnClickListener { goToProfile() }
         linearLayoutHistory?.setOnClickListener { goToHistories() }
+//        linearLayoutCritic?.setOnClickListener { goToCritic() }
+
         return view
+    }
+
+    private fun goToCritic(){
+//        val i = Intent(activity, ProfileActivity::class.java)
+//        startActivity(i)
     }
 
     private fun goToProfile() {
